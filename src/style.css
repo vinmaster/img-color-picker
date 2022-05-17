@@ -1,0 +1,56 @@
+html {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+form {
+  display: grid;
+  grid-gap: 10px;
+  width: 400px;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  display: grid;
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+.image-container {
+  position: relative;
+  width: 400px;
+  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
+.get-palette-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  transform: translate(-50%, -50%);
+}
+
+#images {
+  display: grid;
+  grid-gap: 10px;
+}
+
+#drop-zone {
+  border: 5px dashed #003f5c;
+  border-radius: 20px;
+  height: 100px;
+  width: 390px;
+  display: grid;
+  place-items: center;
+}
+
+#drop-zone.hover {
+  background-color: #ffa600;
+}

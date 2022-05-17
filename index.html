@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Color Picker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Image Color Picker</h1>
+      <form id="url-form">
+        <div>URL</div>
+        <input type="text" />
+        <button type="submit">Load from URL</button>
+      </form>
+      <h2>OR</h2>
+      <div id="drop-zone">Drag and drop image here</div>
+      <div id="images">
+        <div class="image-container">
+          <img src="./src/bee.jpg" />
+          <button class="get-palette-button">Get palette</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
